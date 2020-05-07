@@ -1,6 +1,8 @@
 ## Welcome to HawkEye
 **DISCLAIMER: HAWKEYE IS A PROOF OF CONCEPT DEVELOPED FOR A HACKATHON, AND NOT A SANITARY OR HOSPITAL READY PRODUCT, AND SHOULD NOT BE USED IN SUCH A CONTEXT. THIS IS MERELY AN IDEA / STARTING POINT.**
 
+## Rationale
+
 COVID-19 has taken and continues to take a heavy toll on the health services around the world. 
 
 **The shortages of Personal Protective Equipment are placing our health workers at risk.**
@@ -22,26 +24,18 @@ The **goals** of HawkEye are threefold:
 
 ## How does it work?
 
-HawkEye is based on REDIS TimeSeries and Grafana. It logs dummy IOT data (as would be received from a blood pressure monitor, a pulsioximeter and a digital thermometer) and displays it on a dashboard. Every event is timestamped and kept for future use. The fact that all data is kept as a REDIS TimeSeries allows for fast manipulation, which coupled with Grafana, allows health personel to modify and adapt their alarms and metrics for each patient.
+HawkEye is based on REDIS TimeSeries and Grafana. It logs dummy IOT data (as would be received from a blood pressure monitor, a pulsioximeter and a digital thermometer) and displays it on a dashboard. Every event is timestamped and kept for future use. The fact that all data is kept as a REDIS TimeSeries allows for fast and easy manipulation, which coupled with Grafana, allows health personel to modify and adapt their alarms and metrics for each patient.
 
 Given Grafana and REDIS TimeSeries capabilities, we are able to export data in a variety of channels. This, coupled with anonymization functions, could facilitate data redistribution directly to researchers in the span of a few seconds. 
 
+For the whole system to work, the remote devices would have to allow some kind of remote connection. While some equipment allows fro Bluetooth connections, we haven't found any devices freely available that would allow a "push" or start on blood pressure monitors. Since this is not always possible, because of the limitations of existing equipment, a few options are proposed:
+
+1. Using an electronics solution (such as arduino) that manually pushes the button, such as depicted here (not ours): https://www.instructables.com/id/The-Claw-A-3D-printed-robotic-claw/
+2. Using computer vision to get readings from each machine (depending on the available light in the room)
+3. Implementing a modified device, connected to the medical device's board (might cause regulatory issues).
+4. Buying modified devices that do allow remote start and stop.
 
 
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
 
 [Link](url) and ![Image](src)
 ```
