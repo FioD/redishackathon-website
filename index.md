@@ -28,17 +28,14 @@ HawkEye is based on REDIS TimeSeries and Grafana. It logs dummy IOT data (as wou
 
 Given Grafana and REDIS TimeSeries capabilities, we are able to export data in a variety of channels. This, coupled with anonymization functions, could facilitate data redistribution directly to researchers in the span of a few seconds. 
 
-For the whole system to work, the remote devices would have to allow some kind of remote connection. While some equipment allows fro Bluetooth connections, we haven't found any devices freely available that would allow a "push" or start on blood pressure monitors. Since this is not always possible, because of the limitations of existing equipment, a few options are proposed:
+For the whole system to work, the remote devices would have to allow some kind of remote connection. While some equipment allows Bluetooth connections, we haven't found any freely available medically approved blood pressure monitors that would allow a "push" or start (we are based in the EU). Nevertheless, the idea would be something like this (not ours):https://www.youtube.com/watch?v=17im1J1EdZA
+
+Since this is not always possible, because of the limitations of existing equipment, a few options are proposed:
 
 1. Using an electronics solution (such as arduino) that manually pushes the button, such as depicted here (not ours): https://www.instructables.com/id/The-Claw-A-3D-printed-robotic-claw/
-2. Using computer vision to get readings from each machine (depending on the available light in the room)
+2. Using computer vision to get readings from each machine (depending on the available light in the room).
 3. Implementing a modified device, connected to the medical device's board (might cause regulatory issues).
-4. Buying modified devices that do allow remote start and stop.
+4. Buying newer medically approved devices that do allow remote start and stop.
 
 
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
