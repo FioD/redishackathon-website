@@ -5,6 +5,8 @@
 
 COVID-19 has taken and continues to take a heavy toll on the health services around the world. 
 
+![dashboard screenshot](https://github.com/FioD/redishackathon-website/tree/master/images/alerting.png "Logo Title Text 1")
+
 **The shortages of Personal Protective Equipment are placing our health workers at risk.**
 
 In order to protect them while maintaining a standard of care for patients, **HawkEye** was developed. 
