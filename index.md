@@ -39,4 +39,20 @@ Since this is not always possible, because of the limitations of existing equipm
 4. Buying newer medically approved devices that do allow remote start and stop.
 
 
+## Hackathon entry:
+
+What notable metrics can you share (time saved, % faster, cost savings, etc.)?
+
+Redis Timeseries integrates beautifully with Grafana. The whole project was carried out in less than a week. Working with timeseries data is usually quite complex, and making a flexible query interface would have been quite difficult if we had used other technologies. This way, we were able to focus on the idea and create a dummy IoT service to test it.
+
+How was Redis used in a unique way?
+
+We used Redis TimeSeries with Grafana. The fact that TimeSeries is easy to integrate with other platforms, and treats timeseries data natively greatly simplified our task. This was unique in that we are not using TimeSeries data to log the performance of a system or the logs from a database: we are adapting it for healthcare, with the idea of saving nurses and doctors many incursions for data that they could obtain via telemmetry.
+
+Because it is native timeseries data, doctors and nurses can easily create and customize their own graphs through Grafana (no need to convert formats), without needing to write any code. Healthcare workers know how they want to measure this data best, and we firmly believe in allowing them as much flexibility as possible.
+
+The ease of export would allow for the system to be connected to research centers and national statistics centers directly, so that data could be accurate and timely. Nurses and doctors would see a reduction in their work burdens, since as far as we know, they are the ones in charge of reporting statistics from the hospitals.
+
+The speed that Redis provides allows us to log data every second (even if Grafana is currently set up to display at 5 seconds, this is customizable), which is quite important when it comes to heartbeat and SP02 data. For the sake of argument, we have displayed the same for blood pressure and temperature data, though realistically blood pressure measurements would be a few times a day, as well as temperature.
+
 
