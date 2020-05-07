@@ -5,7 +5,7 @@
 
 COVID-19 has taken and continues to take a heavy toll on the health services around the world. 
 
-[dashboard screenshot](https://github.com/FioD/redishackathon-website/blob/master/images/alerting.png)
+[alerting screenshot](https://github.com/FioD/redishackathon-website/blob/master/images/alerting.png)
 
 **The shortages of Personal Protective Equipment are placing our health workers at risk.**
 
