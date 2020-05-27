@@ -1,8 +1,12 @@
 ## Welcome to HawkEye
 **DISCLAIMER: HAWKEYE IS A PROOF OF CONCEPT DEVELOPED FOR A HACKATHON, AND NOT A SANITARY OR HOSPITAL READY PRODUCT, AND SHOULD NOT BE USED IN SUCH A CONTEXT. THIS IS MERELY AN IDEA / STARTING POINT.**
+
 [Updated Video](https://youtu.be/_izl5ZAZlYw)
+
 This repo corresponds to the GitHub site, the actual code is hosted here:
+
 [Repo](https://github.com/FioD/RedisHackathon)
+
 ## Rationale
 
 COVID-19 has taken and continues to take a heavy toll on the health services around the world. 
