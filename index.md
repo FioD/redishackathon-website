@@ -7,6 +7,8 @@ This repo corresponds to the GitHub site, the actual code is hosted here:
 
 [Repo](https://github.com/FioD/RedisHackathon)
 
+Docker container from: https://github.com/RedisTimeSeries/grafana-redistimeseries
+
 ## Rationale
 
 COVID-19 has taken and continues to take a heavy toll on the health services around the world. 
