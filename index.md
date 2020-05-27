@@ -7,7 +7,7 @@ This repo corresponds to the GitHub site, the actual code is hosted here:
 
 [Repo](https://github.com/FioD/RedisHackathon)
 
-Docker container from: https://github.com/RedisTimeSeries/grafana-redistimeseries
+Docker container from:[Grafana Redis Time Series](https://github.com/RedisTimeSeries/grafana-redistimeseries)
 
 ## Rationale
 
